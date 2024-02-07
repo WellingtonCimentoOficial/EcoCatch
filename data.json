@@ -1,0 +1,157 @@
+[
+    {
+        "products": [
+            {"cod_product": "51768", "name_product": "glifage xr rm 500mg 30cpr"},
+            {"cod_product": "30062", "name_product": "fluoxetina gn 20mg 30cpr ge (c1)"},
+            {"cod_product": "57720", "name_product": "vitamina c 500mg 30cpr al"},
+            {"cod_product": "51922", "name_product": "dprev 10000ui 8cps"},
+            {"cod_product": "43606", "name_product": "forxiga 10mg 30cpr"}
+        ],
+        "crms": [
+            {"cod_crm": "85558", "uf": "sp"},
+            {"cod_crm": "98029", "uf": "sp"},
+            {"cod_crm": "129036", "uf": "sp"},
+            {"cod_crm": "105174", "uf": "sp"},
+            {"cod_crm": "91729", "uf": "sp"},
+            {"cod_crm": "108819", "uf": "sp"},
+            {"cod_crm": "22359", "uf": "sp"},
+            {"cod_crm": "125199", "uf": "sp"},
+            {"cod_crm": "117345", "uf": "sp"},
+            {"cod_crm": "116305", "uf": "sp"},
+            {"cod_crm": "155422", "uf": "sp"},
+            {"cod_crm": "89789", "uf": "sp"},
+            {"cod_crm": "80295", "uf": "sp"},
+            {"cod_crm": "83526", "uf": "sp"},
+            {"cod_crm": "167752", "uf": "sp"},
+            {"cod_crm": "112821", "uf": "sp"},
+            {"cod_crm": "115982", "uf": "sp"},
+            {"cod_crm": "90751", "uf": "sp"},
+            {"cod_crm": "95234", "uf": "sp"},
+            {"cod_crm": "48530", "uf": "sp"}
+        ]
+    },
+    {
+        "products": [
+            {"cod_product": "36099", "name_product": "losartana gn 50mg 30cpr eu"},
+            {"cod_product": "23990", "name_product": "atenolol gn 100mg 30cpr em"},
+            {"cod_product": "33977", "name_product": "vastarel mr 30cpr"},
+            {"cod_product": "43989", "name_product": "carvedilol gn 12,5mg com 30cpr em"},
+            {"cod_product": "47804", "name_product": "olmecor 20mg 30cpr"}
+        ],
+        "crms": [
+            {"cod_crm": "163120", "uf": "sp"},
+            {"cod_crm": "28238", "uf": "sp"},
+            {"cod_crm": "13868", "uf": "sp"},
+            {"cod_crm": "41029", "uf": "sp"},
+            {"cod_crm": "20526", "uf": "sp"},
+            {"cod_crm": "169439", "uf": "sp"},
+            {"cod_crm": "21938", "uf": "sp"},
+            {"cod_crm": "104502", "uf": "sp"},
+            {"cod_crm": "31165", "uf": "sp"},
+            {"cod_crm": "117799", "uf": "sp"},
+            {"cod_crm": "79141", "uf": "sp"},
+            {"cod_crm": "51385", "uf": "sp"},
+            {"cod_crm": "11388", "uf": "sp"},
+            {"cod_crm": "74367", "uf": "sp"},
+            {"cod_crm": "60822", "uf": "sp"},
+            {"cod_crm": "14985", "uf": "sp"},
+            {"cod_crm": "197677", "uf": "sp"},
+            {"cod_crm": "54394", "uf": "sp"},
+            {"cod_crm": "67726", "uf": "sp"},
+            {"cod_crm": "22011", "uf": "sp"}
+        ]
+    },
+    {
+        "products": [
+            {"cod_product": "33137", "name_product": "dipirona sod gn gts 20ml ge"},
+            {"cod_product": "46122", "name_product": "tylemax tutti frutti 15ml"},
+            {"cod_product": "13459", "name_product": "tylenol bebe suspensao 15ml"},
+            {"cod_product": "15315", "name_product": "dipirona sod gn gts 20ml me"},
+            {"cod_product": "3783", "name_product": "dipirona sod gn gts 10ml em"}
+        ],
+        "crms": [
+            {"cod_crm": "16149", "uf": "sp"},
+            {"cod_crm": "174069", "uf": "sp"},
+            {"cod_crm": "131035", "uf": "sp"},
+            {"cod_crm": "54957", "uf": "sp"},
+            {"cod_crm": "67166", "uf": "sp"},
+            {"cod_crm": "164431", "uf": "sp"},
+            {"cod_crm": "6250", "uf": "sp"},
+            {"cod_crm": "11352", "uf": "sp"},
+            {"cod_crm": "54813", "uf": "sp"},
+            {"cod_crm": "102417", "uf": "sp"},
+            {"cod_crm": "96624", "uf": "sp"},
+            {"cod_crm": "45140", "uf": "sp"},
+            {"cod_crm": "27576", "uf": "sp"},
+            {"cod_crm": "39006", "uf": "sp"},
+            {"cod_crm": "102798", "uf": "sp"},
+            {"cod_crm": "28980", "uf": "sp"},
+            {"cod_crm": "49324", "uf": "sp"},
+            {"cod_crm": "47579", "uf": "sp"},
+            {"cod_crm": "36715", "uf": "sp"},
+            {"cod_crm": "29633", "uf": "sp"}
+        ]
+    },
+    {
+        "products": [
+            {"cod_product": "47165", "name_product": "dorflex 10cpr"},
+            {"cod_product": "43172", "name_product": "torsilax 12cpr"},
+            {"cod_product": "30017", "name_product": "tandrilax 15cpr"},
+            {"cod_product": "10057", "name_product": "tandrilax 30cpr"},
+            {"cod_product": "37504", "name_product": "torsilax 30cpr"}
+        ],
+        "crms": [
+            {"cod_crm": "221404", "uf": "sp"},
+            {"cod_crm": "213875", "uf": "sp"},
+            {"cod_crm": "14628", "uf": "sp"},
+            {"cod_crm": "14778", "uf": "sp"},
+            {"cod_crm": "45231", "uf": "sp"},
+            {"cod_crm": "41737", "uf": "sp"},
+            {"cod_crm": "101334", "uf": "sp"},
+            {"cod_crm": "109800", "uf": "sp"},
+            {"cod_crm": "67500", "uf": "sp"},
+            {"cod_crm": "85613", "uf": "sp"},
+            {"cod_crm": "82406", "uf": "sp"},
+            {"cod_crm": "109912", "uf": "sp"},
+            {"cod_crm": "60989", "uf": "sp"},
+            {"cod_crm": "28379", "uf": "sp"},
+            {"cod_crm": "145794", "uf": "sp"},
+            {"cod_crm": "195152", "uf": "sp"},
+            {"cod_crm": "18489", "uf": "sp"},
+            {"cod_crm": "152324", "uf": "sp"},
+            {"cod_crm": "78801", "uf": "sp"},
+            {"cod_crm": "131256", "uf": "sp"}
+        ]
+    },
+    {
+        "products": [
+            {"cod_product": "52208", "name_product": "ciclo 21 21cpr"},
+            {"cod_product": "17308", "name_product": "level 21cpr"},
+            {"cod_product": "10133", "name_product": "microvlar 21drg"},
+            {"cod_product": "10243", "name_product": "neovlar 21drg"},
+            {"cod_product": "55766", "name_product": "levonor+etini gn 15/3m 21cp bgn"}
+        ],
+        "crms": [
+            {"cod_crm": "48085", "uf": "sp"},
+            {"cod_crm": "18798", "uf": "sp"},
+            {"cod_crm": "18277", "uf": "sp"},
+            {"cod_crm": "48394", "uf": "sp"},
+            {"cod_crm": "13345", "uf": "sp"},
+            {"cod_crm": "50475", "uf": "sp"},
+            {"cod_crm": "17817", "uf": "sp"},
+            {"cod_crm": "33808", "uf": "sp"},
+            {"cod_crm": "14063", "uf": "sp"},
+            {"cod_crm": "30948", "uf": "sp"},
+            {"cod_crm": "24927", "uf": "sp"},
+            {"cod_crm": "18645", "uf": "sp"},
+            {"cod_crm": "26578", "uf": "sp"},
+            {"cod_crm": "80122", "uf": "sp"},
+            {"cod_crm": "84705", "uf": "sp"},
+            {"cod_crm": "14602", "uf": "sp"},
+            {"cod_crm": "20889", "uf": "sp"},
+            {"cod_crm": "19724", "uf": "sp"},
+            {"cod_crm": "30027", "uf": "sp"},
+            {"cod_crm": "46058", "uf": "sp"}
+        ]
+    }
+]
