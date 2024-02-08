@@ -6,11 +6,11 @@ from tqdm import tqdm
 from colorama import init, Fore, Style
 from datetime import datetime, timedelta
 
-dalay = 0.8
+dalay = 1
 new_dav_dalay = 1
 write_interval = 0.05
 discount_dalay = 3.5
-difference_dalay = 17.74
+difference_dalay = 0
 
 # Inicia a biblioteca colorama
 init()
@@ -20,7 +20,7 @@ color_reset = Style.RESET_ALL
 
 def presentation(total_capt_qtd, total_dav_qtd, username, cpf, current_time, time_to_finish):
     os.system('cls')
-    future_time = current_time + timedelta(seconds=time_to_finish + (total_dav_qtd * difference_dalay))
+    future_time = current_time + timedelta(seconds=time_to_finish)
     formatted_time = future_time.strftime("%d/%m/%Y %H:%M:%S")
     
     print(Fore.LIGHTBLUE_EX + "\n" + "                        ______           ______      __       __  ")
@@ -34,14 +34,15 @@ def presentation(total_capt_qtd, total_dav_qtd, username, cpf, current_time, tim
     print(f' rCAPTAÇÃO: ' + color_green + str(total_capt_qtd) + color_reset + f' DAV: ' + color_green + str(total_dav_qtd) + color_reset + ' USUÁRIO: ' + color_green + username + color_reset + f' CPF: ' + color_green + cpf + color_reset + ' TÉRMINO: ' + color_green + formatted_time + color_reset + '\n')
     
 
-def calc_time(qtd_capt, currentqtd, dav_product_limit):
+def calc_time(qtd_capt, currentqtd, dav_product_limit, total_dav_qtd):
     login_time = 5 * dalay
     cpf_time = 2 * dalay
     add_product_time = (4 * dalay) + discount_dalay
     new_dav_time = (2 * dalay) + new_dav_dalay
     time_to_finish = login_time + cpf_time + (qtd_capt * add_product_time) + ((qtd_capt / dav_product_limit) * new_dav_time)
     current_time_to_finish = login_time + cpf_time + (currentqtd * add_product_time) + ((currentqtd / dav_product_limit) * new_dav_time)
-    time_left = 0 if time_to_finish - current_time_to_finish < 0 else time_to_finish - current_time_to_finish
+    time_difference = (time_to_finish - current_time_to_finish) + (total_dav_qtd * difference_dalay)
+    time_left = 0 if time_difference < 0 else time_difference
     return time_to_finish, time_left
 
 def parseData():
@@ -103,7 +104,7 @@ def login(username, password):
     time.sleep(dalay)
 
 def show_info(cod_product, name_product, doctor_crm):
-    print('+ COD: ' + Fore.LIGHTRED_EX + cod_product.upper() + color_reset + ' PRODUCT: ' + Fore.LIGHTMAGENTA_EX + f'{name_product.upper()} ' + color_reset + 'CRM: ' + Fore.CYAN + doctor_crm.upper() + color_reset)
+    print('+ COD: ' + Fore.LIGHTBLUE_EX + cod_product.upper() + color_reset + ' PRODUCT: ' + Fore.LIGHTMAGENTA_EX + f'{name_product.upper()} ' + color_reset + 'CRM: ' + Fore.LIGHTYELLOW_EX + doctor_crm.upper() + color_reset)
     
 def progress_bar_position(cod_product=None, name_product=None, doctor_crm=None, old_capt=[], dav_product_limit=None):
     for old_capt_item in old_capt:
@@ -157,7 +158,12 @@ def start():
                     name_product = str(product.get('name_product'))
                     for doctor in doctors:
                         doctor_crm = str(doctor.get('cod_crm') + doctor.get('uf'))
-                        time_to_finish, time_left = calc_time(qtd_capt=qtd_capt, currentqtd=currentqtd, dav_product_limit=dav_product_limit)
+                        time_to_finish, time_left = calc_time(
+                            qtd_capt=qtd_capt, 
+                            currentqtd=currentqtd, 
+                            dav_product_limit=dav_product_limit, 
+                            total_dav_qtd=int(qtd_capt / dav_product_limit)
+                        )
                         if cont_capt > dav_product_limit:
                             presentation(
                                 total_capt_qtd=qtd_capt, 
