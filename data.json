@@ -3,9 +3,9 @@
         "products": [
             {"cod_product": "51768", "name_product": "glifage xr rm 500mg 30cpr"},
             {"cod_product": "30062", "name_product": "fluoxetina gn 20mg 30cpr ge (c1)"},
-            {"cod_product": "57720", "name_product": "vitamina c 500mg 30cpr al"},
+            {"cod_product": "47285", "name_product": "orlistate gn 120mg 42cps em"},
             {"cod_product": "51922", "name_product": "dprev 10000ui 8cps"},
-            {"cod_product": "43606", "name_product": "forxiga 10mg 30cpr"}
+            {"cod_product": "47250", "name_product": "xigduo xr 10+500mg 14cpr"}
         ],
         "crms": [
             {"cod_crm": "85558", "uf": "sp"},
